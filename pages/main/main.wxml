@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap='openWeui'>Open Weui</view>
+  <view bindtap='loadBluetoothDevices'>Load bluetooth devices</view>
+  <view>{{JSON.stringify(currentDevices)}}</view>
+</view>
